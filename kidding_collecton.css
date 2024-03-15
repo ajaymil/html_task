@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Revolution&display=swap');
+*{
+    margin: 0px;
+}
+
+div.header{
+    
+
+    height: 20vh;
+    width: 98.7vw;
+    background-image: linear-gradient( #3399ff 50%,#000000 50% );
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #FFF;
+}
+.title{
+    padding-left:125px ;
+}
+menu{
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+div.header>ul{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+       
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+    transition-duration:1s ;
+}
+.COL{
+    padding:20px;
+
+}
+.clhead
+{
+    font-family: "Anta", sans-serif;   
+}
+
+.books{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    box-shadow: 1px 4px 5px rgb(41, 42, 42);  
+    /* row-gap: 5px; */
+    height: 250vh;
+    width:95vw ;
+    justify-content: space-between;
+    background-color: #b09e9e;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    
+
+
+}
+.book{
+    height:25vh;
+    width: 10vw;
+    background-color: #ffffff;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition-duration:1s;
+    margin: 10px;
+    
+    
+    }
+    
+ footer{
+    height: 30vh;
+    width: 98.7vw;
+    background-color: #3b4a59; 
+    color: #FFF;
+    display: flex;
+    flex-direction: row;  
+    margin: 0px;
+    align-items: center;
+
+ }
+ .contact{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    padding-left: 30px;
+    
+ }
+
+
+ .line{
+    height: 100px;
+    width: 2px;
+    background-color: #FFF;
+    display: flex;
+   
+ }
+ address{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align:left;
+    flex: 2;
+    justify-content: left;
+    font-style: normal;
+    padding-left:40px ;
+    border-right:2px solid #fff ;
+ }
+  
+.qr
+ {
+     display: flex;
+     flex: 2;
+     padding-left:40px ;
+     border-right:2px solid #fff ;
+     font-family: "Protest Revolution", sans-serif;
+ }
+ .loco{
+  padding-left: 10px;
+  display:flex;
+  align-items: center;
+
+ }
+ .phone
+ {
+     flex:3;
+ }
+button{
+    height: 40px;
+    width: 200px;
+    color: #000;
+    font-size: larger;
+    font-family: "Anta", sans-serif; 
+}
+.phone{
+    padding-left: 20px;
+}

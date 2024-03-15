@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+}
+.red{
+    height: 70px;
+    width: 550px;
+    background-color: red;
+}
+@media screen  and (max-width: 701px){
+    .red{
+        height: 70px;
+        width: 225px;
+        background-color: blue;
+    }
+}
+
+@media screen  and (max-width: 350px){
+    .red{
+        height: 70px;
+        width: 100px;
+        background-color: rgb(26, 217, 80);
+    }
+}

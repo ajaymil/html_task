@@ -1,0 +1,52 @@
+
+body
+{
+    margin:0px;
+     display: flex;
+    flex-direction: column;
+    height: 585px;
+    width: 100%;
+    
+
+    
+}
+    
+header{
+    flex: 2;
+
+   
+
+   
+   
+   
+}
+nav{
+    flex:1;
+   
+    background-color: black;
+
+}
+main{
+    flex: 10;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width:1280px;
+}
+aside{
+    flex: 2;
+    background-color: chocolate;
+    overflow: scroll;
+
+}
+section{
+    flex: 6;
+    background-color: azure;
+
+}
+footer{
+    flex:2;
+    height: 50px;
+
+    background-color: #913434;
+}

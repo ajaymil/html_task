@@ -1,0 +1,101 @@
+
+nav{
+    height: 50px;
+    display: grid;
+    grid-template-rows: auto;
+
+}
+main{
+    height: 535px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px auto;
+
+}
+.sec1{
+    background-color: black;
+    color: white;
+
+}
+
+.sec1:hover{
+    overflow: scroll;
+}
+
+.sec2{
+    /* background-color: blue; */
+    color: #fff;
+    height:535px;
+    display: grid;
+    grid-template-rows:75% 25%;
+}
+.tbox{
+    height:100%;
+    display: grid;
+    background-color: aqua;
+    grid-template-columns:30% 30% 30%;
+    align-items: center;
+    /* padding-bottom:20%;*/
+     padding-left:6px ; 
+     gap:20px; 
+     justify-content:space-around;
+    /* justify-content: space-between; */
+      
+}
+.b1{
+    height: 320px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    text-align: justify;
+padding: 10px;
+}
+.b2{
+    height: 320px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    text-align: justify;
+padding: 10px;
+}
+.b3{
+    height: 320px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 50px;
+    text-shadow:1px 1px 4px rgb(0, 255, 247);
+    border-radius: 1000px;
+
+}
+.lbox{
+    background-color: #014cfb;
+    display: flex;
+    flex-direction:row ;
+    padding-top:10px;
+    padding-left:10px ;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+
+    
+}
+.ltxt{
+    height: 90%;
+    width: 95%;
+    background-color:#014cfb;;
+    color: #fff;
+    
+    
+
+
+    
+
+
+
+}

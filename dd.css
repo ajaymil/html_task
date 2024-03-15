@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+body{
+    background-image:url(3558419.jpg) ;
+    height: 569px ;
+    background-size:100% 100% ;
+    background-repeat:no-repeat ;
+}
+.log{
+    /* background-color: #fff; */
+    height: 30rem;
+    width: 25rem;
+    /* margin-left:36%; */
+    position: relative;
+    top: 4rem;
+    bottom: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(3.8px);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* opacity: 0.75; */
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+
+/* border-radius: 10px; */
+
+   
+
+    /* box-shadow: inset 10px black; */
+   
+    
+   
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:1200;
+    text-align: center;
+    flex: 1;
+
+}
+
+
+.un{
+    width: 250px;
+    height: 2rem;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius:50px ;
+    background-color: #ffffff;
+    
+}
+.uni{
+    width: 250px;
+    height: 2rem;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius:50px ;
+    background-color: #ffffff;
+    
+    
+}
+.but{
+    width: 348px;
+    height: 38px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius:10px ;
+    margin: 0px;
+    /* margin-top: 1rem; */
+    gap: 10px;
+    top: 10px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+::placeholder{
+    text-align: center;
+}
+.but:hover{
+    border-style: solid;
+    border-color: black;
+    border-radius:10px ;
+    cursor: pointer;
+    margin: 0px;
+    top: 10px;
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.box{
+ display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+text-align: justify;
+  flex: 4;
+  row-gap:25px;
+
+
+
+
+    
+} 
